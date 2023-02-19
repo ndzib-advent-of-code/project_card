@@ -1,0 +1,89 @@
+ body {
+    background-color: #1D2259;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+
+ .card {
+    width: 450px;
+    box-shadow: 0 0 30px 25px rgba(0, 0, 0, .1);
+    padding: 20px 25px;
+
+    border-radius: 15px;
+ }
+
+ .card-header {
+    display: flex;
+    align-items: center;
+ }
+
+ .header-action {
+    opacity: .7;
+    font-size: 20px;
+    margin-left: auto;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+ }
+
+ .card-header h1 {
+    font-weight: bold;
+    font-size: 17px;
+ }
+
+ .card-header p {
+    font-size: 13px;
+    opacity: .8;
+ }
+
+ .card-body {
+    margin: 15px 0;
+    opacity: .8;
+    font-size: 15px;
+ }
+
+ .card-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    padding: 15px 0 20px;
+ }
+
+ .progress {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #111447;
+    height: 10px;
+    border-radius: 500px;
+    position: relative;
+ }
+
+ .progress-indicator {
+    height: 100%;
+    width: 43%;
+    background-color: #3BDBD9;
+    border-radius: inherit;
+ }
+
+ .card-footer {
+    display: flex;
+    gap: 10px;
+
+    padding-bottom: 10px;
+ }
+
+ .footer-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid #111447;
+    padding: 2px;
+ }
